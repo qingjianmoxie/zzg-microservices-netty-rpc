@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.zzg</groupId>
+	<artifactId>zzg-pro-user-core</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>zzg-pro-user-core</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+	 <!-- 需要依赖api模块 -->	
+		<dependency>
+			<groupId>com.zzg</groupId>
+			<artifactId>zzg-pro-user-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<!-- 需要依赖对外提供服务的模块 -->
+		<dependency>
+			<groupId>com.zzg</groupId>
+			<artifactId>zzg-pro-netty-rpc</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+</project>
